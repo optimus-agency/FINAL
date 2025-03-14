@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.5",
 	"Category": "Samples",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "GameAnimationSample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -57,6 +67,10 @@
 		},
 		{
 			"Name": "ChaosVehiclesPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "AsyncLoadingScreen",
 			"Enabled": true
 		}
 	],
