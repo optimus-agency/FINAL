@@ -37,6 +37,14 @@
 			"Name": "LiveLinkControlRig",
 			"Enabled": true
 		},
+                {
+			"Name": "LiveLinkCurveDebugUI",
+			"Enabled": true
+		},
+                {
+			"Name": "LiveLinkCamera",
+			"Enabled": true
+		},
 		{
 			"Name": "PoseSearch",
 			"Enabled": true
@@ -72,6 +80,28 @@
 		{
 			"Name": "AsyncLoadingScreen",
 			"Enabled": true
+		},
+		{
+			"Name": "AppleARKit",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "AppleARKitFaceSupport",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android"
+			]
 		}
 	],
 	"EpicSampleNameHash": "1673045636"
